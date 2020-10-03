@@ -45,6 +45,30 @@ try {
 }
 
 
+//slider plugin js
+
+$('#touchSlider').touchSlider();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 $(document).ready(function () {
 
@@ -57,6 +81,8 @@ $(document).ready(function () {
     $(".price").click(function () {
         $("#price-options").slideToggle('slow');
     });
+
+
 
     // all products
 
